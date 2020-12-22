@@ -56,7 +56,8 @@ export const Photo = styled.div`
     justify-content: center;
     gap: 35px;
     cursor: pointer;
-    
+    border-radius: 3px;
+
     div{
         display: flex;
         align-items: center;

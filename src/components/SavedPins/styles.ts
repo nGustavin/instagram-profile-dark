@@ -10,6 +10,7 @@ export const Container = styled.div`
     margin-bottom: 44px;
     gap: 10px;
     overflow-x: auto;
+    
 `
 
 export const Title = styled.h1`
@@ -21,6 +22,7 @@ export const Title = styled.h1`
     color: #f9f9f9;
     text-align: center;
     background: none;
+    cursor: pointer;
 `
 
 export const Story = styled.div`
@@ -30,6 +32,7 @@ export const Story = styled.div`
     border-radius: 50%;
     border: 4px solid #0d1117;
     box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.4);
+    cursor: pointer;
 `
 
 export const PinContainer = styled.div`
@@ -41,4 +44,5 @@ export const PinContainer = styled.div`
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    
 `
