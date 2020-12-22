@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Landing = styled.div`
   
-    width: 100vw;
+  width: 100vw;
   height: 100vh;
   background: #0d1117;
   display: flex;
@@ -28,7 +28,7 @@ export const Wrapper = styled.div`
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #fafafa;
+  background: #0d1117;
 }
 
 /* Handle */

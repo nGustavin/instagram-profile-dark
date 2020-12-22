@@ -3,8 +3,8 @@ import styled from 'styled-components'
 export const Container = styled.div`
     width: 100%;
     height: 53px;
-    background: #fafafa;;
-    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    background: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
     display: flex;
     flex-direction: column;
     overflow-y: visible;
@@ -30,6 +30,7 @@ export const Tabs = styled.div`
             font-weight: 600;
             font-family: 'Roboto', sans-serif;
             background: none;
+            color: #f9f9f9;
         }
     }
 `
