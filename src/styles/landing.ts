@@ -4,7 +4,7 @@ export const Landing = styled.div`
   
     width: 100vw;
   height: 100vh;
-  background: #fafafa;
+  background: #0d1117;
   display: flex;
   flex-direction: column;
   align-items: center;

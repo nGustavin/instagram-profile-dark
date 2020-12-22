@@ -18,10 +18,10 @@ const Header: React.FC = () => {
           </div>
           <input type="text" placeholder="Search"/>
           <div className="buttons">
-            <BiHomeAlt size={24} />
-            <FiSend size={24}/>
-            <FaRegCompass size={24}/>
-            <FiHeart size={24}/>
+            <BiHomeAlt size={24} color={'#fafafa'}/>
+            <FiSend size={24} color={'#fafafa'}/>
+            <FaRegCompass size={24} color={'#fafafa'}/>
+            <FiHeart size={24} color={'#fafafa'}/>
             <img src={profilePhoto} alt="profile-photo"/>
           </div>
           </div>

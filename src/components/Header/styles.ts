@@ -1,14 +1,13 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-    background: red;
     width: 100%;
     height: 54px;
     display: flex;
     justify-content: center;
     align-items: center;
     outline: 0.2px solid rgba(0, 0, 0, 0.2);
-    background: #ffffff;
+    background: #161b22;
 
     position: absolute;
     top: 0px;
@@ -38,16 +37,17 @@ export const Container = styled.div`
     > input{
         height: 28px;
         width: 215px;
-        background: #fafafa;
+        background: #0d1117;
         padding: 7px;
         border-radius: 4px;
         text-align: center;
-        border: 0.4px solid rgba(0, 0, 0, 0.2);
-
+        border: 0.4px solid rgba(255,255,255, 0.2);
+        color:#f9f9f9;
         ::placeholder{
             font-size: 15px;
             font-family: 'Roboto', sans-serif;
             font-weight: 400;
+            color: #f9f9f9;
         }
     }
 

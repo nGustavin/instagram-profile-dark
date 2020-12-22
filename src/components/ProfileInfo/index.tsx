@@ -24,7 +24,7 @@ const Profile: React.FC = () => {
                   
                 </div>
                 
-                <BsThreeDots size={22} style={{cursor: 'pointer'}}/>
+                <BsThreeDots size={22} style={{cursor: 'pointer'}} fill={'white'}/>
               </div>
               <div className="statistics">
                 <div>
