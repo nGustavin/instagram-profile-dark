@@ -18,7 +18,7 @@ export const Title = styled.h1`
     overflow: hidden;
     padding: 15px 0px 0px 0px;
     font-size: 14px;
-    color: black;
+    color: #f9f9f9;
     text-align: center;
     background: none;
 `
@@ -28,8 +28,8 @@ export const Story = styled.div`
     height: 77px;
     background: #feff99;
     border-radius: 50%;
-    border: 4px solid #FFF;
-    box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
+    border: 4px solid #0d1117;
+    box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.4);
 `
 
 export const PinContainer = styled.div`
